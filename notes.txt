@@ -6,3 +6,13 @@ git checkout <commit id>
 
 Return to the master branch
 git checkout master
+
+Revert to code at a previous commit
+git revert c35b31c
+git add .
+git commit -m "Reverted to a previous feature"
+^ This is safe because we still have access to the commits that came after the
+commit we are reverting to
+
+Revert to code at a previous commit and discard subsequent changes (Destructive)
+git reset c35b31c --hard
