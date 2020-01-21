@@ -16,3 +16,9 @@ commit we are reverting to
 
 Revert to code at a previous commit and discard subsequent changes (Destructive)
 git reset c35b31c --hard
+
+
+Create branches for new features
+git branch unordered-list
+git branch -a (the * indicates the active branch)
+git checkout unordered-list
