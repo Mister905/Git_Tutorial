@@ -22,3 +22,12 @@ Create branches for new features
 git branch unordered-list
 git branch -a (the * indicates the active branch)
 git checkout unordered-list
+git add .
+git commit -m "Added new <ul> feature"
+git checkout master
+
+Shortcut
+git checkout -b unordered-list
+
+Delete a branch
+git branch -D unordered-list
