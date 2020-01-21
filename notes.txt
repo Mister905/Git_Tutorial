@@ -27,7 +27,30 @@ git commit -m "Added new <ul> feature"
 git checkout master
 
 Shortcut
-git checkout -b unordered-list
+git checkout -b user-table
 
 Delete a branch
 git branch -D unordered-list
+
+Merging Branches & Conflicts
+git checkout master
+git merge unordered-list
+
+
+Collaborating on GitHub w/ other Developers
+
+git pull origin master (fetches changes made by others and merges into master branch)
+
+git checkout -b new-feature
+
+*make changes*
+
+git add .
+
+git commit -m "Created new feature"
+
+git push origin new-feature
+
+github -> Compare & pull request
+
+Open a pull request -> Leave a comment -> Create a pull request
