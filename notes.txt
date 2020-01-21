@@ -1,0 +1,8 @@
+List commits
+git log --oneline
+
+View code at a different commit (non-destructive)
+git checkout <commit id>
+
+Return to the master branch
+git checkout master
